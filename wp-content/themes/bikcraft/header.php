@@ -29,15 +29,15 @@
 
 	<header class="header">
 		<div class="container">
-			<a href="index.html" class="grid-4">
-				<img src="img/bikcraft.svg" alt="Bikcraft">
+			<a href="/origamid/bikcraft_wp/" class="grid-4">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/bikcraft.svg" alt="Bikcraft">
 			</a>
 			<nav class="grid-12 header_menu">
 				<ul>
-					<li><a href="sobre.html">Sobre</a></li>
-					<li><a href="produtos.html">Produtos</a></li>
-					<li><a href="portfolio.html">Portfólio</a></li>
-					<li><a href="contato.html">Contato</a></li>
+					<li><a href="/origamid/bikcraft_wp/sobre/">Sobre</a></li>
+					<li><a href="/origamid/bikcraft_wp/produtos/">Produtos</a></li>
+					<li><a href="/origamid/bikcraft_wp/portfolio/">Portfólio</a></li>
+					<li><a href="/origamid/bikcraft_wp/contato/">Contato</a></li>
 				</ul>
 			</nav>
 		</div>

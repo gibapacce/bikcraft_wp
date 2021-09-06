@@ -6,11 +6,11 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /origaMID/bikcraft_wp/
+RewriteBase /origamid/bikcraft_wp/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /origaMID/bikcraft_wp/index.php [L]
+RewriteRule . /origamid/bikcraft_wp/index.php [L]
 </IfModule>
 
 # END WordPress

@@ -1,5 +1,9 @@
-<?php get_header(); ?>
+<?php 
+// Template Name: Produtos
+get_header(); 
+?>
 
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<section class="introducao-interna interna_produtos">
 		<div class="container">
 			<h1 data-anime="400" class="fadeInDown">Produtos</h1>
@@ -97,6 +101,6 @@
 			</div>
 		</div>
 	</section>
-
+<?php endwhile; else: endif; ?>
 
 <?php get_footer(); ?>

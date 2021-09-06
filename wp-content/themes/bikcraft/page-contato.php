@@ -1,5 +1,9 @@
-<?php get_header(); ?>
+<?php 
+// Template Name: Contato
+get_header(); 
+?>
 
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<section class="introducao-interna interna_contato">
 		<div class="container">
 			<h1 data-anime="400" class="fadeInDown">Contato</h1>
@@ -43,5 +47,6 @@
 	<div class="container contato_mapa fadeInDown" data-anime="1600">
 		<a href="http://google.com" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft"></a>
 	</div>
+<?php endwhile; else: endif; ?>
 
 <?php get_footer(); ?>
